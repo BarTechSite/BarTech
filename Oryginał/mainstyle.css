@@ -1,0 +1,495 @@
+﻿body
+{
+    background-image: url("img/tlo.jpg");
+	min-height: 100%;
+	background-attachment: fixed;
+    color:black;
+	font-family: 'Krona One', sans-serif;
+    font-size:20px;
+    margin:0 !important;
+}
+#wrapper
+{
+    width:100%;
+}
+/*header*/
+#topbar
+{
+	width: 100%;
+	background-color: #262626;
+}
+#header
+{
+    width:100%;
+}
+
+#logo
+{ 
+    width:230px;
+    font-size:48px;
+    margin-right:auto;
+    text-align:left;
+    float:left;
+	border-left:1px solid black; 
+	border-top:1px solid black;
+}
+
+#logo > img
+{
+    float:left;
+    width:225px;
+    height:52px;
+}
+
+#smallsocialdivs
+{
+    float:right;
+    max-width:200px;
+    height:52px;
+    margin-left:auto;
+    color:black;
+    font-size:20px !important;
+	background-color:#adadad;
+	text-align:center;
+	border:1px solid black; 
+}
+
+#smallsocialdivs > a
+{
+    text-decoration:none;
+    color:black;
+}
+
+#smallfb
+{
+    width:60px;
+    height:52px;
+    float:left;
+	padding-bottom:1px;
+}
+
+#smallfb:hover
+{
+    background-color:#4668b3;
+}
+
+#smallyt
+{
+    width:60px;
+    height:52px;
+    float:left;	
+	border-right:1px solid black;
+	border-left:1px solid black;
+}
+
+#smallyt:hover
+{
+    background-color:#d94348;
+}
+
+#smallgp
+{
+    width:60px;
+    height:52px;
+    float:left;
+	padding-right:10px
+}
+
+#smallgp:hover
+{
+    background-color:#d95333;
+}
+
+#socialdivs > a
+{
+    text-decoration:none;
+    color:black;
+}
+
+.nav
+{
+    width:100%;
+	padding:10px;
+	padding-right:0px;
+    background-color:#3385ff;
+    text-align:center;
+    border-top:1px solid black;
+    border-bottom:1px solid black;
+    color:black;
+}
+
+.sticky
+{
+    width:100%;
+    position:fixed;
+    left:0;
+    top:0;
+    z-index:100;
+}
+
+ol
+{
+    padding:0;
+    margin:0;
+    list-style-type:none;
+    font-size:18px;
+    line-height:200%;
+    display:inline-block;
+}
+ol a
+{
+    color:black;
+    text-decoration:none;
+    display:block;
+}
+ol > li
+{
+    float:left;
+    width:270px;
+    height:40px;
+    border-right:1px dashed #000099;
+	padding:0px;
+	padding-right:5px;
+	padding-left:5px;
+}
+
+ol > li:first-child
+{
+    border-left:1px dashed #000099;
+}
+ol > li:hover
+{
+    background-color:#2274ee;
+}
+
+ol > li:hover > a
+{
+    color:black;
+}
+
+ol > li > ul
+{
+    list-style-type:none;
+    padding:0;
+    margin:0;
+    height:30px;
+    display:none;
+} 
+
+ol > li > ul >li 
+{
+    background-color:#2274ee;
+    position:relative;
+    z-index:100;
+    border-top:1px dashed #000099;
+}
+
+ol > li > ul >li :hover
+{
+    background-color:#2274ee;
+    font-weight:bold;
+    text-decoration:underline;
+}
+
+ol > li:hover > ul
+{
+    display:block;
+}
+/*header end*/
+
+/*content*/
+#conteiner
+{
+    width:100%;
+    margin-left:0;
+    margin-right:0;
+    text-align:center;
+}
+
+#reklama
+{
+    margin-top:20px;
+    margin-left:auto !important; 
+    margin-right:auto !important;
+
+}
+
+#reklama > img
+{
+    max-height:90px;
+    max-width:728px;
+}
+
+#content
+{
+    max-width:1320px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+}
+
+#incontent
+{
+	margin-left:20px;
+}
+
+.minipost
+{
+    color:white;
+    width:290px;
+    height:290px;
+    margin-right:20px;
+    margin-top:20px;
+    float:left;
+    background-color:#262626;
+    text-align:center;
+    border:7px solid #3385ff;
+    font-size:26px;
+	text-align:center;
+}
+
+.minipost > a
+{
+    text-decoration:none;
+    color:black;
+}
+
+.minipost:hover
+{
+	font-weight:bold;
+	text-decoration:underline;
+}
+
+.miniposttopic
+{
+    height:86px;
+    width:290px;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.minipostfoto
+{
+    max-height:164px;
+    max-width:290px;
+    margin:0;
+}
+
+.minipostfoto > img
+{
+    height:164px;
+    width:290px;
+    margin:0;
+} 
+
+#reklamadol
+{
+    margin-top:20px;
+    width:100%;
+    text-align:center
+}
+
+#reklamadoldeep
+{
+    width:970px;
+    margin-right:auto;
+    margin-left:auto;
+}
+/*content end*/
+
+/*footer*/
+#socials
+{
+    margin-top:20px;
+    width:100%;
+    text-align:center;
+    background-color:#262626;
+}
+
+#socialdivs
+{
+    width:750px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#fb
+{
+    width:240px;
+    height:155px;
+    float:left;
+}
+
+#fb:hover
+{
+    background-color:#4668b3;
+}
+
+#yt
+{
+    width:240px;
+    height:155px;
+    float:left;
+}
+
+#yt:hover
+{
+    background-color:#d94348;
+}
+
+#gp
+{
+    width:240px;
+    height:155px;
+    float:left;
+}
+
+#gp:hover
+{
+    background-color:#d95333;
+}
+
+#socialdivs > a
+{
+    text-decoration:none;
+    color:black;
+}
+
+#footer
+{
+    text-align:center;
+    background-color:#222222;
+    padding:30px;
+}
+/*footer end*/
+
+
+/*posts*/
+#posttopic
+{
+    margin:20px;
+    max-width:990px;
+    border:5px solid #3385ff;
+    background-color:#262626;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    font-size:30px;
+}
+
+.posttopiccontent
+{
+    padding:20px;
+    background-color:#585858;
+    font-weight:bold;
+}
+
+.postintroduction
+{
+    margin-right:20px;
+    font-size:22px;
+}
+
+#postconteiner
+{
+    margin:20px;
+    max-width:990px;
+    min-height:990px !important;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:#262626;
+    text-align:center;
+    border:5px solid #3385ff;
+}
+
+.postcontent
+{
+    font-size:16px;
+    color:white;
+    margin:20px;
+    min-height:875px;
+    text-align:left;
+}
+
+.postsentence
+{
+    padding:22px;
+    font-style:italic;
+    font-size:26px;
+    background-color:#585858;
+}
+
+.postfotoright
+{
+    margin:20px;
+    max-width:335px;
+    max-height:191px;
+    float:right;
+    
+}
+
+.postfotoright > img
+{
+    max-width:330px;
+    height:186px;
+    border:5px solid #3385ff;
+}
+
+.postfotorightinside
+{
+    float:right;
+    margin:20px;
+    margin-right:0px;
+    max-width:335px;
+    max-height:191px;
+    
+}
+
+.postfotorightinside > img
+{
+    max-width:330px;
+    height:186px;
+    border:5px solid #3385ff;
+}
+
+.postother
+{
+    margin-right:20px;
+    margin-top:20px;
+    font-size:18px;
+}
+/*posts end*/
+
+/*events*/
+#events
+{
+    margin-top:20px;
+    width:100%;
+    text-align:center;
+}
+
+#twoevents
+{
+    margin-left:auto;
+    margin-right:auto;
+    max-width:900px;
+}
+
+.event:first-child
+{
+    margin-right:20px;
+    margin-bottom:20px;
+}
+
+.event
+{
+    float:left;
+    width:430px;
+    min-height:900px;
+    background-color:#262626;
+    text-align:center;
+    border:5px solid #3385ff;
+    
+}
+
+/*events end*/

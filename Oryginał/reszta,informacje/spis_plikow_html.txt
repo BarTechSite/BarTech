@@ -1,0 +1,13 @@
+1próba.html
+techinpopculture.html
+	marvel.html
+	dc.html
+	starwars.html
+techingames.html
+	assasins.html
+	deusex.html
+	bladerunner.html
+	statcitizen.html
+	portal.html
+autorzy.html
+

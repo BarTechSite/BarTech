@@ -1,0 +1,33 @@
+﻿Have AI got neurons too?
+
+|
+If you've ever read anything more about artificial intelligence, you should know what a perceptron is, namely: <span style="font-weight:bold;"><br />an artificial neuron</span>.<br />
+
+ The average human brain has about 100 billion neurons. The structure of these micronutrients is very simple: <br />
+ other neurons will emit electrical impulses to the dendrites of our cell (which can be compared to information that
+we deliver to the computer via USB), <br /> they stimulate it, if they are strong enough, then it sends its impulse further.
+Pretty simple, right?
+|
+<p>
+
+That's why the concept of a perceptron was introduced in 1957! These are very old times looking at computers from
+they have been standing in museums for a long time and we have been using this little simple system for so long.
+                    
+</p>
+                    
+<p>
+It is amazing that such an inconspicuous thing used first in calculations in today's world is the basis for artificial construction
+intelligence that we can teach how they should behave, that is, if they get the right impulses, e.g. someone
+told me something nice, then we teach such artificial intelligence to make her smile.
+                    
+</p>
+                    
+<p>
+                        
+Since we have been using this system for so long, whether and for how long it will satisfy our desire to discover,
+will we be able to build fully functioning artificial intelligence and will we be able to control it?
+The technique is developing in the right direction for now, but time will be the best to verify our skills.
+                   
+</p>
+|
+„The best way to predict the future is to create it” – Peter Drucker
